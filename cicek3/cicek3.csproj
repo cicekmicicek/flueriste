@@ -62,6 +62,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\cicek3.dll" />
+    <Content Include="bin\cicek3.pdb" />
+    <Content Include="bin\MiniCore.dll" />
     <Content Include="css\bootstrap-rtl.css" />
     <Content Include="css\bootstrap-rtl.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -88,7 +91,6 @@
     <Content Include="Images\Users\damla\user_damla.jpg" />
     <Content Include="Images\Users\mehmet\user_mehmet.png" />
     <Content Include="Images\Users\mertaltun\user_mertaltun.png" />
-    <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.6.2.min.js" />
@@ -106,6 +108,81 @@
     <Content Include="js\plugins\morris\morris.js" />
     <Content Include="js\plugins\morris\morris.min.js" />
     <Content Include="js\plugins\morris\raphael.min.js" />
+    <Content Include="obj\Debug\cicek3.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\cicek3.dll" />
+    <Content Include="obj\Debug\cicek3.pdb" />
+    <Content Include="obj\Debug\TempPE\DataClasses.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\DataClasses1.designer.cs.dll" />
+    <Content Include="obj\Release\cicek3.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\cicek3.dll" />
+    <Content Include="obj\Release\cicek3.pdb" />
+    <Content Include="obj\Release\Package\PackageTmp\AnaEkran.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\cicek3.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\MiniCore.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\Cari.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\css\bootstrap-rtl.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\bootstrap-rtl.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\bootstrap.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\bootstrap.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\buttons.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\giris\bootstrap-social.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\giris\bootstrap-theme.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\giris\templatemo_style.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\morris.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\profil.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\sb-admin-rtl.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\sb-admin.css" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\Giris.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Global.asax" />
+    <Content Include="obj\Release\Package\PackageTmp\Hazirlananlar.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\favicon.ico" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\fluersiteLogo1Gri.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\templatemo-bg-1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\Two-flowers-on-wood.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\Users\baki\user_baki.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\Users\cansu\user_cansu.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\Users\damla\user_damla.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\Users\mehmet\user_mehmet.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Images\Users\mertaltun\user_mertaltun.png" />
+    <Content Include="obj\Release\Package\PackageTmp\index.html" />
+    <Content Include="obj\Release\Package\PackageTmp\js\bootstrap.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\bootstrap.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery-1.6.2.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery-2.0.3.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\flot\excanvas.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\flot\flot-data.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\flot\jquery.flot.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\morris\morris-data.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\morris\morris.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\morris\morris.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\morris\raphael.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\msgbox\notifIt.css" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins\msgbox\notifIt.js" />
+    <Content Include="obj\Release\Package\PackageTmp\Malzeme.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Musteri.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Notification.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Profil.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\SifreHatirlatma.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\SiparisForm.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\SiparisKuyruk.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\TeslimEdilenler.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Urunler.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\WebForm3.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\XMLFile1.xml" />
+    <Content Include="obj\Release\Package\PackageTmp\Yonetim\fileUploadDenetim.js" />
+    <Content Include="obj\Release\Package\PackageTmp\Yonetim\yonetimCustom.css" />
+    <Content Include="obj\Release\Package\PackageTmp\Yonetim\yonetimCustomjs.js" />
+    <Content Include="obj\Release\Package\PackageTmp\Yonetim\YonetimPaneli.aspx" />
+    <Content Include="obj\Release\TempPE\DataClasses.designer.cs.dll" />
+    <Content Include="obj\Release\_WPPLastBuildInfo.txt" />
     <Content Include="Profil.aspx" />
     <Content Include="SifreHatirlatma.aspx" />
     <Content Include="Site1.Master" />
@@ -155,7 +232,57 @@
     <Content Include="Yonetim\yonetimCustom.css" />
     <Content Include="Yonetim\yonetimCustomjs.js" />
     <Content Include="Yonetim\YonetimPaneli.aspx" />
-    <Content Include=".htaccess" />
+    <Content Include="bin\cicek3.dll.config" />
+    <Content Include="obj\Debug\cicek3.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\cicek3.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\Package\PackageTmp\.htaccess" />
+    <Content Include="obj\Release\Package\PackageTmp\DataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\animated.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\bordered-pulled.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\core.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\fixed-width.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\icons.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\larger.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\list.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\mixins.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\path.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\rotated-flipped.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\stacked.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\less\variables.less" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_animated.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_core.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_larger.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_list.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_path.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_stacked.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\Site1.Master" />
+    <Content Include="obj\Release\Package\PackageTmp\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\assist\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\transformed\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -188,6 +315,17 @@
     <Compile Include="Cari.aspx.designer.cs">
       <DependentUpon>Cari.aspx</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\Package\PackageTmp\DataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Profil.aspx.cs">
       <DependentUpon>Profil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -316,12 +454,18 @@
     <Folder Include="Images\Users\mehmet\UrunResimleri\" />
     <Folder Include="Images\Users\mertaltun\UrunResimleri\" />
     <Folder Include="Models\" />
+    <Folder Include="obj\Release\ProfileTransformWebConfig\transformed\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DataClasses.dbml.layout">
+      <DependentUpon>DataClasses.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Release\Package\PackageTmp\DataClasses.dbml.layout">
       <DependentUpon>DataClasses.dbml</DependentUpon>
     </None>
   </ItemGroup>

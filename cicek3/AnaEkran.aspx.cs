@@ -33,7 +33,7 @@ namespace cicek3
             return sayi;
         }
         
-
+        //git denemesi
         protected void Button1_Click(object sender, EventArgs e)
         {
 
