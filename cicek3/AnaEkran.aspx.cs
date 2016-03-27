@@ -36,7 +36,7 @@ namespace cicek3
         //git denemesi
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            //bende deneme için yazdım :)
         }
 
         //protected void btn1_ServerClick(object sender, EventArgs e)
