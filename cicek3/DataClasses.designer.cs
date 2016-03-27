@@ -39,7 +39,7 @@ namespace cicek3
     #endregion
 		
 		public DataClassesDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["FLUERİSTEConnectionString"].ConnectionString, mappingSource)
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["FLUERİSTEConnectionString1"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -188,13 +188,6 @@ namespace cicek3
 			return ((int)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_UrunSil")]
-		public int usp_UrunSil([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> urun_Id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> user_Id)
-		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), urun_Id, user_Id);
-			return ((int)(result.ReturnValue));
-		}
-		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_UrunleriGetir")]
 		public ISingleResult<usp_UrunleriGetirResult> usp_UrunleriGetir([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> user_Id)
 		{
@@ -213,6 +206,20 @@ namespace cicek3
 		public System.Nullable<int> fnc_UserMailKontrol([global::System.Data.Linq.Mapping.ParameterAttribute(Name="Mail", DbType="NVarChar(30)")] string mail)
 		{
 			return ((System.Nullable<int>)(this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), mail).ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_UrunleriGetir")]
+		public ISingleResult<usp_UrunleriGetirResult1> usp_UrunleriGetir1([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> user_Id)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), user_Id);
+			return ((ISingleResult<usp_UrunleriGetirResult1>)(result.ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_UrunSil")]
+		public int usp_UrunSil([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> urun_Id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> user_Id)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), urun_Id, user_Id);
+			return ((int)(result.ReturnValue));
 		}
 	}
 	
@@ -1571,6 +1578,140 @@ namespace cicek3
 				if ((this._Ad != value))
 				{
 					this._Ad = value;
+				}
+			}
+		}
+	}
+	
+	public partial class usp_UrunleriGetirResult1
+	{
+		
+		private int _Urun_Id;
+		
+		private string _Ad;
+		
+		private System.Nullable<decimal> _Fiyat;
+		
+		private System.Nullable<System.DateTime> _Eklenme_Tarihi;
+		
+		private string _kad;
+		
+		private int _Kategori_Id;
+		
+		private string _OzelNot;
+		
+		public usp_UrunleriGetirResult1()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Urun_Id", DbType="Int NOT NULL")]
+		public int Urun_Id
+		{
+			get
+			{
+				return this._Urun_Id;
+			}
+			set
+			{
+				if ((this._Urun_Id != value))
+				{
+					this._Urun_Id = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Ad", DbType="NVarChar(50)")]
+		public string Ad
+		{
+			get
+			{
+				return this._Ad;
+			}
+			set
+			{
+				if ((this._Ad != value))
+				{
+					this._Ad = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Fiyat", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> Fiyat
+		{
+			get
+			{
+				return this._Fiyat;
+			}
+			set
+			{
+				if ((this._Fiyat != value))
+				{
+					this._Fiyat = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Eklenme_Tarihi", DbType="DateTime")]
+		public System.Nullable<System.DateTime> Eklenme_Tarihi
+		{
+			get
+			{
+				return this._Eklenme_Tarihi;
+			}
+			set
+			{
+				if ((this._Eklenme_Tarihi != value))
+				{
+					this._Eklenme_Tarihi = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_kad", DbType="NVarChar(50)")]
+		public string kad
+		{
+			get
+			{
+				return this._kad;
+			}
+			set
+			{
+				if ((this._kad != value))
+				{
+					this._kad = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Kategori_Id", DbType="Int NOT NULL")]
+		public int Kategori_Id
+		{
+			get
+			{
+				return this._Kategori_Id;
+			}
+			set
+			{
+				if ((this._Kategori_Id != value))
+				{
+					this._Kategori_Id = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_OzelNot", DbType="NVarChar(100)")]
+		public string OzelNot
+		{
+			get
+			{
+				return this._OzelNot;
+			}
+			set
+			{
+				if ((this._OzelNot != value))
+				{
+					this._OzelNot = value;
 				}
 			}
 		}

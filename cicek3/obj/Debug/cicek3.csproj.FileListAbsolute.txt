@@ -4,3 +4,9 @@ C:\Users\mertA\Desktop\cicekmicicekGit\cicek3\bin\cicek3.dll
 C:\Users\mertA\Desktop\cicekmicicekGit\cicek3\bin\cicek3.pdb
 C:\Users\mertA\Desktop\cicekmicicekGit\cicek3\obj\Debug\cicek3.dll
 C:\Users\mertA\Desktop\cicekmicicekGit\cicek3\obj\Debug\cicek3.pdb
+C:\Users\POLAT\Desktop\cicekmicicekGit\cicek3\bin\cicek3.dll.config
+C:\Users\POLAT\Desktop\cicekmicicekGit\cicek3\bin\cicek3.dll
+C:\Users\POLAT\Desktop\cicekmicicekGit\cicek3\bin\cicek3.pdb
+C:\Users\POLAT\Desktop\cicekmicicekGit\cicek3\obj\Debug\cicek3.csprojResolveAssemblyReference.cache
+C:\Users\POLAT\Desktop\cicekmicicekGit\cicek3\obj\Debug\cicek3.dll
+C:\Users\POLAT\Desktop\cicekmicicekGit\cicek3\obj\Debug\cicek3.pdb
