@@ -1,0 +1,6 @@
+C:\Users\mertA\Desktop\cicek\cicek3\cicek3\bin\cicek3.dll.config
+C:\Users\mertA\Desktop\cicek\cicek3\cicek3\bin\cicek3.dll
+C:\Users\mertA\Desktop\cicek\cicek3\cicek3\bin\cicek3.pdb
+C:\Users\mertA\Desktop\cicek\cicek3\cicek3\obj\Release\cicek3.csprojResolveAssemblyReference.cache
+C:\Users\mertA\Desktop\cicek\cicek3\cicek3\obj\Release\cicek3.dll
+C:\Users\mertA\Desktop\cicek\cicek3\cicek3\obj\Release\cicek3.pdb
