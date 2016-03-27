@@ -113,6 +113,7 @@
     <Content Include="obj\Debug\cicek3.pdb" />
     <Content Include="obj\Debug\TempPE\DataClasses.designer.cs.dll" />
     <Content Include="obj\Debug\TempPE\DataClasses1.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\obj.Release.Package.PackageTmp.DataClasses.designer.cs.dll" />
     <Content Include="obj\Release\cicek3.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Release\cicek3.dll" />
     <Content Include="obj\Release\cicek3.pdb" />
